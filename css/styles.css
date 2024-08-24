@@ -1,0 +1,56 @@
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+div h2{
+font-size: 24px;
+font-weight: bold;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.container p{
+    font-size: 16px;
+}
+.first-container{
+    background-color: rgb(22, 155, 98);
+    border: 5px solid rgb(20, 139, 88);
+
+}
+.second-container{
+    background-color: #f4efef;
+    border: 5px solid #e4dfdf;
+}
+.third-container{
+    background-color: rgb(255, 136, 62);
+    border: 5px solid rgb(229, 122, 56);
+}
+.first-container, .second-container, .third-container {
+    width: 100%;
+    padding: 25px;
+}
+h1, h2 {
+    padding-bottom: 25px;
+}
+ h1 +p {
+    padding-bottom: 18px;
+ }
+ .pd-bt +p {
+    padding-bottom: 18px;
+ }
+  
+ a{
+    text-decoration: none;
+ }
+ .bold {
+    font-weight: bold;
+ }
+ .tc-green {
+    color:rgb(22, 155, 98)
+ }
+ .tc-orange {
+    color:rgb(255, 136, 62)
+ }
